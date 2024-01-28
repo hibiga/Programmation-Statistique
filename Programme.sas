@@ -96,7 +96,7 @@ run;
 proc print data = rep.AGE1;
 run;
 
-/*5.C _ Sélectionner variable pour nouvelle table (que les 22 ans)
+/*5.C _ Sélectionner variable pour nouvelle table (que les 22 ans)*/
 data rep.age22 ; 
 set rep.AGE1 ;
 if AGE NE 22 then delete; 
